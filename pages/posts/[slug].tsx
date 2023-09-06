@@ -11,6 +11,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
+import Utterances from '../../components/Utterances';
 
 type Props = {
   post: PostType
@@ -44,7 +45,9 @@ export default function Post({ post, morePosts, preview }: Props) {
                 author={post.author}
               />
               <PostBody content={post.content} />
+              <Utterances repo="shoo7830/aria-next-blog" />
             </article>
+
           </>
         )}
       </Container>
