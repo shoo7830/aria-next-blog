@@ -26,6 +26,10 @@
 
 }
 
+.markdown code:not([class*="language-"]) {
+  @apply bg-slate-800 text-white rounded py-0.5 px-1.5;
+}
+
 .markdown a {
   @apply underline underline-offset-4;
 }
