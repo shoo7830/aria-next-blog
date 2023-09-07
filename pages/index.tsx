@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
+          <title>WHY-ARIA | 야매가 7할, 프론트엔드개발자</title>
         </Head>
         <Container>
           <Intro />
