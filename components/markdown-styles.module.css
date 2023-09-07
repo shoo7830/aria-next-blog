@@ -14,7 +14,7 @@
 }
 
 .markdown li {
-  @apply py-2;
+  @apply pt-2;
 }
 
 .markdown h2 {
