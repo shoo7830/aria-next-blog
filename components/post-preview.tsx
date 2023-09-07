@@ -32,7 +32,7 @@ const PostPreview = ({
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
-          className="hover:underline"
+          className="hover:underline underline-offset-8"
         >
           {title}
         </Link>
